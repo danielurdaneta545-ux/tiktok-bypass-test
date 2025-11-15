@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activador TIKTOK Final</title>
+    <script type="text/javascript">
+        // Intento más agresivo: Ejecuta el Deep Link inmediatamente
+        window.onload = function() {
+            // Comando para iniciar la app de TikTok
+            window.location.href = "snssdk1233://";
+        };
+        // Respaldo por si falla la primera ejecución
+        setTimeout(function() {
+            window.location.href = "snssdk1233://";
+        }, 100);
+    </script>
+</head>
+<body>
+    <h1>Ejecutando TikTok...</h1>
+    <p>Si la aplicación no abre, el bloqueo es muy robusto.</p>
+    <a href="snssdk1233://">Clic aquí si no pasa nada.</a>
+</body>
+</html>
